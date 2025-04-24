@@ -15,7 +15,7 @@ const Pet = (props) => {
   const sleepSprite = new Image();
 
   idleImg.src = '../src/assets/ideal.png';
-  playImg.src = '../src/assets/play.png';
+  playImg.src = './assets/play.png';
   sleepSprite.src = '../src/assets/sleepingAnimation.png';
 
   useEffect(() => {
