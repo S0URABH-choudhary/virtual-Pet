@@ -1,0 +1,7 @@
+@import "tailwindcss";
+/* in your CSS or Tailwind setup */
+.btn {
+    @apply px-4 py-2 bg-amber-300 hover:bg-amber-400 rounded text-sm font-bold shadow transition;
+    @apply disabled:bg-gray-300 disabled:cursor-not-allowed;
+  }
+  
