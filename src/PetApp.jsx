@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import Pet from '../components/Pet.jsx';
-import StatsBar from '../components/statsBar.jsx';
+import StatsBar from '../components/StatsBar.jsx';
 import Controls from '../components/Controlls.jsx';
 
 export default function PetApp() {
